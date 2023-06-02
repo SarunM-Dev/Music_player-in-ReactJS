@@ -1,15 +1,10 @@
-import './App.css';
-import '@mui/material'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MediaControlCard from './Music/music';
-import { NavbarContent } from './Navbar/Navbar';
-function App() {
+import React from "react";
+import Home from "./screens/home";
+
+export default function App() {
   return (
     <div>
-    <NavbarContent/>
-    <MediaControlCard/>
+      <Home />
     </div>
   );
 }
-
-export default App;
